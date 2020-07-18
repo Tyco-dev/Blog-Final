@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9dae4e7d-f77a-43ad-b0a4-2be9f2f9b12e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eeh6OC5iuCo3t39KMqDW4ozSGf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static_root/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\static_root\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\templates\registration" />
+      <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\static_in_env\img" />
+      <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\static_root\img" />
+      <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\posts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyBlog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MyBlog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dae4e7d-f77a-43ad-b0a4-2be9f2f9b12e" name="Default Changelist" comment="" />
+      <created>1594687789615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594687789615</updated>
+      <workItem from="1594687840847" duration="3010000" />
+      <workItem from="1594719978469" duration="4653000" />
+      <workItem from="1594726165597" duration="7904000" />
+      <workItem from="1594804146906" duration="12014000" />
+      <workItem from="1594891940549" duration="1580000" />
+      <workItem from="1594978198873" duration="13997000" />
+      <workItem from="1595070397425" duration="10153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1059" y="455" key="FileChooserDialogImpl" timestamp="1595010728437">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1059" y="455" key="FileChooserDialogImpl/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595010728437" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595074336291">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595074336291" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1595070459150">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595070459150" />
+    <state x="976" y="298" width="607" height="804" key="find.popup" timestamp="1595010729109">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="976" y="298" width="607" height="804" key="find.popup/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595010729109" />
+  </component>
+</project>
