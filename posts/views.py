@@ -1,10 +1,13 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.core.paginator import PageNotAnInteger, Paginator, EmptyPage
 from django.db.models import Count, Q
-from django.urls import reverse
+from django.urls import reverse, reverse_lazy
 from .models import Post, Author, PostView
-from .forms import CommentForm, PostForm
+from .forms import CommentForm, PostForm, CategoryForm
 from marketing.models import SignUp
+from django.views.generic import CreateView
+from django.contrib.admin.views.decorators import staff_member_required
+from django.utils.decorators import method_decorator
 
 
 def get_author(user):
@@ -103,16 +106,20 @@ def post(request, id):
     return render(request, 'post.html', context)
 
 
+@staff_member_required
 def post_create(request):
     title = 'Create'
     form = PostForm(request.POST or None, request.FILES or None)
     author = get_author(request.user)
     if request.method == "POST":
         if form.is_valid():
+            form.save(commit=False)
             form.instance.author = author
             form.save()
             return redirect(reverse("post_detail", kwargs=
             {'id': form.instance.id}))
+    else:
+        form = PostForm()
     context = {
         'form': form,
         'title': title
@@ -142,3 +149,10 @@ def post_delete(request, id):
     post = get_object_or_404(Post, id=id)
     post.delete()
     return redirect(reverse("post_list"))
+
+
+@method_decorator(staff_member_required, name='dispatch')
+class CategoryCreate(CreateView):
+    template_name = 'category_create.html'
+    form_class = CategoryForm
+    success_url = reverse_lazy('index')

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dae4e7d-f77a-43ad-b0a4-2be9f2f9b12e" name="Default Changelist" comment="" />
+    <list default="true" id="9dae4e7d-f77a-43ad-b0a4-2be9f2f9b12e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +32,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\tilli\Desktop\Resume Projects\MyBlog\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1eeh6OC5iuCo3t39KMqDW4ozSGf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,22 +52,24 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static_root/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static_in_env/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\static_root\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\templates\registration" />
       <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\static_in_env\img" />
       <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\static_root\img" />
       <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\posts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\static_in_env\img" />
+      <recent name="C:\Users\tilli\Desktop\Resume Projects\MyBlog\static_root\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -85,7 +113,9 @@
       <workItem from="1594804146906" duration="12014000" />
       <workItem from="1594891940549" duration="1580000" />
       <workItem from="1594978198873" duration="13997000" />
-      <workItem from="1595070397425" duration="10153000" />
+      <workItem from="1595070397425" duration="11317000" />
+      <workItem from="1595154150039" duration="4146000" />
+      <workItem from="1595172801860" duration="1698000" />
     </task>
     <servers />
   </component>
@@ -101,13 +131,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595074336291" />
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1595070459150">
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1595172802511">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595070459150" />
-    <state x="976" y="298" width="607" height="804" key="find.popup" timestamp="1595010729109">
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595172802511" />
+    <state x="976" y="298" width="737" height="804" key="find.popup" timestamp="1595156186794">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="298" width="607" height="804" key="find.popup/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595010729109" />
+    <state x="976" y="298" width="737" height="804" key="find.popup/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595156186794" />
   </component>
 </project>

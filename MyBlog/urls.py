@@ -18,7 +18,7 @@ from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
 from marketing.views import contactView, successView
-from posts.views import index, blog, post, search, post_delete, post_update, post_create
+from posts.views import index, blog, post, search, post_delete, post_update, post_create, CategoryCreate
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -36,6 +36,7 @@ urlpatterns = [
     path('create/', post_create, name='post_create'),
     path('post/<id>/update/', post_update, name='post_update'),
     path('post/<id>/delete/', post_delete, name='post_delete'),
+    path('create_category/', CategoryCreate.as_view(), name='category_create'),
 
     # Contact urls
     path('contact/', contactView, name='contact'),

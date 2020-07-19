@@ -22,6 +22,7 @@
             <!-- Navbar Brand --><a href="/" class="navbar-brand">My Blog</a>
             {% if request.user.is_staff %}
               <a href="{% url 'post_create' %}" class="nav-link">Create Post</a>
+              <a href="{% url 'category_create' %}" class="nav-link">Create Category</a>
             {% endif %}
 
             <!-- Toggle Button-->
