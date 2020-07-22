@@ -1,8 +1,23 @@
 {% extends 'base.html' %}
 {% load crispy_forms_tags %}
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
 
 {% block content %}
+    <ul class="list-group col-2 offset-4">
+    <h3 style="margin-top: 10px">Categories</h3>
+       {% for category in object_list %}
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            {{ category.title }}
+            <div class="media-right">
+                <a href="{% url 'delete_category' category.title %}">
+                    <button class="deleteButton">--</button>
+                </a>
+            </div>
+          </li>
+       {% endfor %}
+    </ul>
+
 
 <div class="col-4 offset-4 mb-5 mt-5">
 <h3>Create Category</h3>

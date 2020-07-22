@@ -2,12 +2,13 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.core.paginator import PageNotAnInteger, Paginator, EmptyPage
 from django.db.models import Count, Q
 from django.urls import reverse, reverse_lazy
-from .models import Post, Author, PostView
+from .models import Post, Author, PostView, Category
 from .forms import CommentForm, PostForm, CategoryForm
 from marketing.models import SignUp
-from django.views.generic import CreateView
+from django.views.generic import CreateView, ListView
 from django.contrib.admin.views.decorators import staff_member_required
 from django.utils.decorators import method_decorator
+from django.contrib.messages.views import SuccessMessageMixin
 
 
 def get_author(user):
@@ -127,6 +128,7 @@ def post_create(request):
     return render(request, "post_create.html", context)
 
 
+@staff_member_required
 def post_update(request, id):
     title = 'Update'
     post = get_object_or_404(Post, id=id)
@@ -145,6 +147,7 @@ def post_update(request, id):
     return render(request, "post_create.html", context)
 
 
+@staff_member_required
 def post_delete(request, id):
     post = get_object_or_404(Post, id=id)
     post.delete()
@@ -152,7 +155,18 @@ def post_delete(request, id):
 
 
 @method_decorator(staff_member_required, name='dispatch')
-class CategoryCreate(CreateView):
+class CategoryCreate(CreateView, SuccessMessageMixin):
     template_name = 'category_create.html'
     form_class = CategoryForm
-    success_url = reverse_lazy('index')
+    success_url = reverse_lazy('category_create')
+
+    def get_context_data(self, **kwargs):
+        kwargs['object_list'] = Category.objects.all()
+        return super(CategoryCreate, self).get_context_data(**kwargs)
+
+
+@staff_member_required
+def delete_category(request, title):
+    category = Category.objects.get(title=title)
+    category.delete()
+    return redirect('category_create')

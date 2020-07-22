@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dae4e7d-f77a-43ad-b0a4-2be9f2f9b12e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_in_env/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/static_in_env/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/category_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/category_create.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +108,11 @@
       <workItem from="1594978198873" duration="13997000" />
       <workItem from="1595070397425" duration="11317000" />
       <workItem from="1595154150039" duration="4146000" />
-      <workItem from="1595172801860" duration="1698000" />
+      <workItem from="1595172801860" duration="2230000" />
+      <workItem from="1595189630348" duration="2914000" />
+      <workItem from="1595240521931" duration="36000" />
+      <workItem from="1595265730832" duration="834000" />
+      <workItem from="1595417376550" duration="5082000" />
     </task>
     <servers />
   </component>
@@ -131,10 +128,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595074336291" />
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1595172802511">
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1595240522035">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595172802511" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/2560.230.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1595240522035" />
     <state x="976" y="298" width="737" height="804" key="find.popup" timestamp="1595156186794">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
