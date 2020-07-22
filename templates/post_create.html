@@ -2,10 +2,10 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-
 <div class="col-4 offset-4 mb-5 mt-5">
 <h3>{{ title }} a post</h3>
     <br/>
+    <a style="font-size: 12px" href="{% url 'category_create' %}">Create Category</a>
 {{ form.media }}
 <form method="POST" action="." enctype="multipart/form-data">
     {% csrf_token %}

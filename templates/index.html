@@ -6,7 +6,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
-            <h1>Tyco Crypto Blog - This is not financial advice.</h1><a href="#" class="hero-link">Discover More</a>
+            <h1>A Blog- Built with Django.</h1>
+            {% if request.user.is_authenticated %}
+              <a class="hero-link" href="{% url 'post_list' %}">Discover</a>
+              {% else %}
+              <a class="hero-link" href="{% url 'account_signup' %}">Discover</a>
+            {% endif %}
           </div>
         </div><a href=".intro" class="continue link-scroll"><i class="fa fa-long-arrow-down"></i> Scroll Down</a>
       </div>

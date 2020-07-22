@@ -11,7 +11,7 @@ from .models import Post, Comment, Category
 class PostForm(forms.ModelForm):
     class Meta:
         model = Post
-        fields = ('title', 'overview', 'content', 'thumbnail', 'categories', 'featured', 'previous_post', 'next_post')
+        fields = ('categories','title', 'overview', 'content', 'thumbnail', 'featured', 'previous_post', 'next_post')
 
 
 class CommentForm(forms.ModelForm):
